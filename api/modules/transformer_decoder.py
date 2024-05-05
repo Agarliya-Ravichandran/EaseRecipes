@@ -99,7 +99,6 @@ class SinusoidalPositionalEmbedding(nn.Module):
         self.weights = self.weights.type_as(self._float_tensor)
 
         if incremental_state is not None:
-
             return self.weights[self.padding_idx + seq_len, :].expand(bsz, 1, -1)
 
         positions = make_positions(input.data, self.padding_idx, self.left_pad)

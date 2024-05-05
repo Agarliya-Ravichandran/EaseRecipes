@@ -1,3 +1,5 @@
+# EaseRecipes
+
 # Frontend
 + Naviagte to the project directory 
 + Install the following packages

@@ -22,7 +22,6 @@ function RightPanel() {
   const[posts, setPosts] = useState([]);
 
   async function fetchPosts(){
-
     const response = await fetch('/fetch-posts', {
       method: "POST",
       headers: {

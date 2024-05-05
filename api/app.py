@@ -839,7 +839,6 @@ def fetchComment():
     result = cursor.fetchall()
     print(result)
 
-
     ans = dict()
     ans[0] = []
     for x in result:

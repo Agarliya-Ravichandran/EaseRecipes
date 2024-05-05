@@ -8,6 +8,13 @@ import "./components/Navbar.css";
 import Profile from "./components/userPage/profile";
 import backImg from "./components/userPage/back-img.jpg"
 
+// function App() {
+  //   return (
+    //     <div>
+    //       <Login />
+    //     </div>
+    //   );
+    // }
 
 
 function DashBoard(){

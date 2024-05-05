@@ -8,7 +8,6 @@ from modules.multihead_attention import MultiheadAttention
 from utils.metrics import softIoU, MaskedCrossEntropyCriterion
 import pickle
 import os
-
 device = torch.device('cuda')
 
 

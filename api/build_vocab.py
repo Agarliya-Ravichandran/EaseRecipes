@@ -320,7 +320,6 @@ def build_vocab_recipe1m(args):
                 acc_len += len(instr)
                 instrs_list.append(instr)
 
-
         if len(labels) < args.minnumingrs or len(instrs_list) < args.minnuminstrs \
                 or len(instrs_list) >= args.maxnuminstrs or len(labels) >= args.maxnumingrs \
                 or acc_len < args.minnumwords:
